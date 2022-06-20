@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* barra di navigazione */
 .color-nav{
     width: 1906px;
     height: 81px;
@@ -14,6 +15,7 @@
     padding: 20px;
 
 }
+/* menu di navigazione */
 .nav-menu{
     height: 34px;
     border: solid 1px black;
@@ -22,22 +24,46 @@
     padding: 10px;
 
 }
+.nav-menu-link{
+    flex-grow:2;
+    border: solid 1 px black;
+    background-color: rgb(233, 212, 23) ;
+    padding: 10 px;
+
+}
 p{
     text-align: center;
 }
 .section-blu{
     max-width: 1200px;
-    height: 600px;
+    height: 500px;
     background-color: blue;
     margin:0 auto;
     padding: 100px;
 }
 .box-1{
     width: 800px;
-    height: 400px;
+    height: 300px;
     background-color: deeppink;
     margin:0 auto;
 }
+
+/* main */
 .container{
     max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.content-box1{
+    height: 500 px;
+    flex-basis: 40%;
+    margin: solid 1 px black;
+}
+.content-box2{
+    height: 500 px;
+    flex-basis: 60%;
+    margin: solid 1 px black
+    ;
 }
