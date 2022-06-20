@@ -27,14 +27,17 @@ p{
 }
 .section-blu{
     max-width: 1200px;
-    height: 800px;
+    height: 600px;
     background-color: blue;
     margin:0 auto;
-    padding: 150px;
+    padding: 100px;
 }
 .box-1{
     width: 800px;
-    height: 600px;
+    height: 400px;
     background-color: deeppink;
     margin:0 auto;
+}
+.container{
+    max-width: 1200px;
 }
