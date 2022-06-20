@@ -50,24 +50,47 @@ p{
     margin:0 auto;
     display: flex;
     flex-direction:row;
+    padding: 90px;
 
 }
 .content-box1{
     height:300px;
-    flex-basis: 40%;
+    flex-basis: 60%;
     border: 1px solid black;
-    background-color: rgba(240, 59, 200, 0.527);
+    background-color:rgb(0, 217, 255) ;
 }
 .content-box2{
     height:300px;
-    flex-basis: 60%;
-    background-color: rgb(80, 218, 228);
+    flex-basis: 40%;
+    background-color:rgba(240, 59, 200, 0.527);
     border: 1 px solid black;
 }
-.container-flex{
+.reverse{
     flex-direction: row-reverse;
     max-width:1000px;
     height: 471px;
     margin:0 auto;
     display: flex;
+    background-color: lightgray;
+    padding: 70px;
 }
+.cube{
+    background-color: lightgrey;
+    height: 500px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+.green-box{
+    height: 450px;
+    width: 700px;
+    background-color: darkgreen;
+    
+
+}
+/* footer */
