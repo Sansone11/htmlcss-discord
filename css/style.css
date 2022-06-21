@@ -16,10 +16,6 @@
 }
 
 /* menu di navigazione */
-.nav .container{
-    max-width: 1000px;
-}
-
 .nav-menu{
     height: 34px;
     border: dashed 1px black;
@@ -33,11 +29,20 @@
     flex-grow:2;
     border: dashed 1px black;
     background-color: rgb(233, 212, 23) ;
+    
 
 }
 
 p{
     text-align: center;
+}
+
+.section-blu{
+    max-width: 1000px;
+    height: 500px;
+    background-color: blue;
+    margin:0 auto;
+    padding: 100px;
 }
 
 .box-1{
@@ -55,6 +60,7 @@ p{
     display: flex;
     flex-direction:row;
     padding: 90px;
+    background-color: blue;
 
 }
 
@@ -82,6 +88,19 @@ p{
     padding: 70px;
 }
 
+.cube{
+    background-color: lightgrey;
+    height: 500px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
 
 .green-box{
     height: 450px;
@@ -92,7 +111,6 @@ p{
 }
 
 /* footer */
-
 .column{
     background-color:rgba(0, 0, 0, 0.856);
     height: 400px;
@@ -126,7 +144,6 @@ p{
 }
 
 /* bottoni */
-
 .button{
     background-color: rgba(0, 0, 0, 0.911);
     border-color: whitesmoke;
