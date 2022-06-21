@@ -14,6 +14,9 @@
 
 }
 /* menu di navigazione */
+.nav .container{
+    max-width: 1000px;
+}
 .nav-menu{
     height: 34px;
     border: dashed 1px black;
@@ -31,13 +34,7 @@
 p{
     text-align: center;
 }
-.section-blu{
-    max-width: 1000px;
-    height: 500px;
-    background-color: blue;
-    margin:0 auto;
-    padding: 100px;
-}
+
 .box-1{
     width: 800px;
     height: 300px;
@@ -76,19 +73,7 @@ p{
     background-color: lightgray;
     padding: 70px;
 }
-.cube{
-    background-color: lightgrey;
-    height: 500px;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 30px;
-    padding-left: 90px;
-    padding-right: 90px;
 
-}
 
 .green-box{
     height: 450px;
@@ -107,6 +92,7 @@ p{
 
 
 }
+
 .struttura{
     display: flex;
     flex-direction:row;
