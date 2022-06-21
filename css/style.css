@@ -217,7 +217,6 @@ h1{
 
 
 .cube{
-    background-color: lightgrey;
     max-width: 1000px;
     height: 800px;
     margin: 0 auto;
@@ -228,22 +227,24 @@ h1{
 
 
 }
+
 .big-text{
     text-align: center;
     height: 200px;
     width: 800px;
     
 }
+
 .big-text h2{
     margin-bottom: 30px;
     font-size: 40px;
 }
+
 .big-text p{
     font-size: 20px;
 }
 
 .green-box{
-    border: solid 1px black;
     height: 400px;
     width: 800px;
     background-image: url(../img/item4-big.svg);
@@ -251,6 +252,7 @@ h1{
     padding-bottom: 40px;
     
 }
+
 .demand{
     text-align: center;
 
@@ -265,8 +267,9 @@ h1{
 
 }
 
-.demand h3::before{
-
+.demand h3{
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 /* footer */
@@ -279,26 +282,32 @@ h1{
 
 
 }
+ul
 
 .struttura{
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     max-width: 1000px;
     margin: 0 auto;
     padding-left: 75px;
     padding-right: 75px;
+    align-items: flex-start;
 }
 
 .colonna1{
     flex-basis: 33%;
     background-color: deeppink;
 }
+.colonna1 h2{
+    display: inline;
+}
 
 .colonna{
     flex-grow: 4;
     background-color: aqua;
     border: dashed white;
-    height: 350px;
+    display: flex;
+
 
 }
 
