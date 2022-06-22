@@ -275,39 +275,59 @@ h1{
 /* footer */
 .column{
     background-color:rgba(0, 0, 0, 0.856);
-    height: 400px;
     max-width: 1000px;
     margin: 0 auto;
     padding: 25px;
+    display: flex;
+    height: 400px;
+    
 
 
 }
-ul
+
 
 .struttura{
-    display: flex;
-    flex-direction: row;
+    
     max-width: 1000px;
     margin: 0 auto;
     padding-left: 75px;
     padding-right: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    height: 400px;
     
 }
 
 .colonna1{
     flex-basis: 33%;
     background-color: deeppink;
+
+}
+.struttura ul{
+    display: inline-block;
+    text-align: left;
 }
 
 .colonna1 h2{
-    display: inline;
+    color:rgb(66, 150, 230)
+    font-size: 16px;
 }
+
+h4{
+    color: rgb(66, 150, 230);
+    font-size: 16px;
+}
+
+
 
 .colonna{
     flex-grow: 4;
     background-color: aqua;
     border: dashed white;
     display: flex;
+    flex-direction: row;
+    text-align: left;
 
 }
 
