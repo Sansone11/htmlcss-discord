@@ -291,13 +291,14 @@ ul
     margin: 0 auto;
     padding-left: 75px;
     padding-right: 75px;
-    align-items: flex-start;
+    
 }
 
 .colonna1{
     flex-basis: 33%;
     background-color: deeppink;
 }
+
 .colonna1 h2{
     display: inline;
 }
@@ -308,13 +309,12 @@ ul
     border: dashed white;
     display: flex;
 
-
 }
 
 /* bottoni */
 .button{
     background-color: rgba(0, 0, 0, 0.911);
-    border-color: whitesmoke;
+    border-top:solid 2px whitesmoke;
     max-width: 1000px;
     height: 200px;
     margin: 0 auto;
@@ -327,21 +327,25 @@ ul
 #button-task{
     margin:0 auto;
     width: 800px;
-    background-color: black;
-    height: 200px;
+    background-color:rgba(0, 0, 0, 0.911);
+    height: 150px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: flex-start;
+    line-height: 150px;
+    padding-top: 20px;
+
 
 }
 .task-cta{
-    height: 130 px;
-    width: 150px;
+    height: 30 px;
+    width: 100px;
     color: white;
     background-color: rgb(49, 167, 235);
     border-radius: 20px;
     border-color:black ;
+    line-height: 30px;
 }
 
 .task{
